@@ -1,9 +1,18 @@
 import "./App.css"
+import Title from "./Title.jsx"
+
+
+
 
 function App() {
  
 
-  return <h1> Hello World </h1>;
+  return( 
+  <div>
+ <Title/>
+  <Title/>
+  </div> 
+  );
    
   
 }
